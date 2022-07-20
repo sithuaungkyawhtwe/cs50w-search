@@ -1,0 +1,100 @@
+#links {
+    display: flex;
+    justify-content: right;
+}
+
+.corner {
+    color: black;
+    font-style: sans-serif;
+    font-size: 15px;
+    text-align: right;
+    margin: 5px;
+    padding: 5px;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:hover {
+    color: black;
+}
+
+
+.advanced_search {
+    width: 75px;
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    margin-top: -60px;
+}
+
+#p {
+    color: rgb(230, 85, 85);
+    margin: 40px;
+    font-size: 23px;
+}
+
+#hr {
+    margin-top: 20px;
+}
+
+#text {
+
+    font-size: 18px;
+}
+
+#tips {
+    margin-left: 1050px;
+    margin-bottom: -45px;
+}
+
+#tips1 {
+    margin-left: 1050px;
+    margin-bottom: -55px;
+}
+
+#find {
+    margin-bottom: -20px;
+}
+
+#todo {
+    margin-left: 1020px;
+}
+
+label {
+    margin: 40px;
+}
+
+div {
+    margin: 20px;
+}
+
+div > p {
+    margin: 20px;
+    font-size: 19px;
+}
+
+@media (min-width: 1537px)
+    {
+        .button {
+            margin-left: 900px;
+            background-color: blue;
+        }
+}
+
+@media (max-width: 1536px)
+    {
+        .button {
+            margin-left: 400px;
+            background-color: blue;
+        }
+}
+
+@media (max-width: 500px)
+    {
+        .button {
+            margin-left: 270px;
+            background-color: blue;
+        }
+}

@@ -1,0 +1,140 @@
+div {
+    display: flex;
+    justify-content: center;
+    
+}
+
+img {
+    width: 15%;
+    margin-top: 250px;
+    }
+
+hr {
+    margin-top: 30px;
+}
+
+button {
+    font-style: Arial;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.searchbar {
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 20px;
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    width: 500px;
+}
+
+#links {
+    display: flex;
+    justify-content: right;
+}
+
+.corner {
+    color: black;
+    font-style: sans-serif;
+    font-size: 15px;
+    text-align: right;
+    margin: 5px;
+    padding: 5px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: black;
+  }
+
+  .buttons {
+    font-style: sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+
+#images {
+    color: blue;
+    display: flex;
+    margin-right: -250px;
+    margin-top: -20px;
+}
+
+@media (min-width: 1537px) {
+    #images {
+        color: blue;
+        display: flex;
+        margin-right: -250px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 1536px) {
+    #images {
+        color: blue;
+        display: flex;
+        margin-right: -150px;
+        margin-top: 0.5px;
+    }
+
+    img {
+        width: 240px;
+    }
+}
+
+@media (max-width: 500px) {
+    img {
+        width: 250px;
+    }
+
+    .searchbar {
+        border-color: lightgrey;
+        border-style: solid;
+        border-radius: 20px;
+        display: block;
+        margin: 5px;
+        padding: 10px;
+        width: 300px;
+    }
+
+    a {
+        margin-left: 40px;
+        margin-top: -15px;
+    }
+}
+
+.advanced_search {
+    width: 75px;
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+    margin-top: -20px;
+}
+
+#p {
+    color: rgb(230, 85, 85);
+    margin: 40px;
+    font-size: 23px;
+}
+
+#hr {
+    margin-top: 20px;
+}
+
+#findpageswith {
+    margin: 40px;
+    font-size: 17px;
+}
+
+p {
+    margin: 40px;
+    font-size: 15px;
+}
+
+#input {
+    margin-top: -200px;
+}
