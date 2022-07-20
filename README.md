@@ -3,7 +3,7 @@
 ### Link to website: <https://sithuaungkyawhtwe.github.io/cs50w-search/>
 
 # Project Details
-Website that uses and implements Google Search, Google Images, and Advacned Search. It is inspiref from Google's search engine.
+Website that uses and implements Google Search, Google Images, and Advanced Search. It is inspired from Google's search engine.
 <br>
 
 # Project Idea
